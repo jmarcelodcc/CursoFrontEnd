@@ -1,0 +1,91 @@
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #280b4f;
+    background-color: antiquewhite;
+    border: none;
+    width: 90px;
+    margin: auto;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.border-1{
+    border-style: none;
+}
+
+.border-2{
+    border-style: hidden;
+}
+
+.border-3{
+    border-style: dotted;
+}
+
+.border-4{
+    border-style: dashed;
+}
+
+.border-5{
+    border-style: solid;
+}
+
+.border-6{
+    border-style: double;
+}
+
+.border-7{
+    border-style: groove;
+}
+
+.border-8{
+    border-style: ridge;
+}
+
+.border-9{
+    border-style: inset;
+}
+
+.border-10{
+    border-style: outset;
+}
+
+.outline-1 {
+    outline-style: none;
+}
+
+.outline-2 {
+    outline-style: hidden;
+}
+
+.outline-3 {
+    outline-style: dotted;
+}
+
+.outline-4 {
+    outline-style: dashed;
+}
+
+.outline-5 {
+    outline-style: solid;
+}
+
+.outline-6 {
+    outline-style: double;
+}
+
+.outline-7 {
+    outline-style: groove;
+}
+
+.outline-8 {
+    outline-style: ridge;
+}
+
+.outline-9 {
+    outline-style: inset;
+}
+
+.outline-10 {
+    outline-style: outset;
+}
