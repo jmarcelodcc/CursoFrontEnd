@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(214, 214, 214);
+    width: 80%;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    background-color: #ccc9ee;
+    border: #201586;
+    border-style: solid;
+    border-top: 0;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 0px;
+}
+
+.botao{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.botao li{
+    display: inline-block;
+
+}
+
+.botao a{
+    display: block;
+    background-color: #ccc9ee;
+    border: #201586;
+    border-style: solid;
+    padding: 15PX;
+}
+
+h1{ 
+    text-align: center;
+    font-size: 46px;
+    margin: 10px 0 0;
+    padding: 5px;
+    color: #201586;
+    background-color: #c3bfec;
+}
+
+h2{
+    color: #201586;
+    font-size: 36px;
+    margin: 30px 0 5px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    background-color:rgb(182, 182, 182);
+}
+
+h3{
+    font-weight:bold;
+    font-size: 18px;
+
+}
+
+h4{
+    font-weight: 800;
+    font-size: 14px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ul, li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style-position: inside;
+    padding: 0;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+    text-decoration: underline;
+}
