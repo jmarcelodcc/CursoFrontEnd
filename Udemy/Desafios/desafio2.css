@@ -14,27 +14,52 @@ body{
     border-top: 0;
     text-align: center;
     padding: 5px 0;
-    margin-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .botao{
+    margin-top: 10px;
     display: inline-block;
     width: 100%;
     text-align: right;
+    margin-bottom: 0;
 }
 
 .botao li{
     display: inline-block;
-
 }
 
 .botao a{
     display: block;
     background-color: #ccc9ee;
-    border: #201586;
-    border-style: solid;
-    padding: 15PX;
+    border-style:ridge;
+    border-color: #f5f5f5;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;    
 }
+
+.botao a:link{
+    color: #201586;
+}
+
+.botao a:visited{
+    color: #201586;
+}
+
+.botao a:hover{
+    color: #201586;
+    background-color: #b1aece;
+    text-decoration: none;
+}
+
+.botao a:active{
+    background-color: #b1aece;
+    color: #201586;
+}
+
+
 
 h1{ 
     text-align: center;
