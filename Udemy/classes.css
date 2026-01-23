@@ -10,6 +10,31 @@
     text-decoration: none;
 }
 
+.botaocenter{
+    margin: 0 auto 2px;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+.botaocenter li{
+    display: inline-block;
+}
+
+.botaocenter a{
+    display: inline-block;
+    padding: 10px;
+    border: #280b4f solid 1px;
+}
+
+.estilo{
+    background-color: rgb(180, 162, 248);
+    text-align: center ;
+    width: 70px; 
+    margin: 10px auto;
+    padding: 10px;
+}
+
 .border-1{
     border-style: none;
 }
