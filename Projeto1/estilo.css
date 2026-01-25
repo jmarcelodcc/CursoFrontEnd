@@ -1,25 +1,24 @@
 body{
     background-color:#8d8d8d;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header nav{
+.menu{
     width: 95%;
 }
 
-header nav ul{
+.menu ul{
     display: inline-block;
     width: 100%;
-    padding: 0;
-    margin: 0;
     text-align: right;
 }
 
-header nav ul li{
+.menu li{
     display: inline-block;
 }
 
-header nav ul li a{
+.menu a{
     margin-top: 10px;
     display: inline-block;
     padding: 15px 20px;
@@ -27,97 +26,90 @@ header nav ul li a{
     color: white;
     text-transform: uppercase;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: 1px white solid;
 }
 
-header nav ul li a:link{
+.menu ul li a:link{
     text-decoration: none;
 }
 
-header nav ul li a:hover{
+.menu ul li a:hover{
     text-decoration: underline;
 }
 
-
-header h1{
-    margin-top: 12%;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #080808;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 52px;
-}
-
-header h2{
-    color: white;
-    background-color: rgb(0, 0, 0, 0.5);
-    text-align: center;
-    border-bottom: white solid 2px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
-    margin: 60px auto;
-    padding: 10px;
-    font-weight: none;
-}
-
-header{
+.principal {
     height: 500px;
     background-image: url(imagens/bg-3.jpg);
     background-position: center;
     background-size: cover;
 }
 
-main{
+.principal h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #080808;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.principal h2{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+    border-bottom: white solid 2px;
+    font-size: 14px;
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.conteudo{
     width: 80%;
     margin: auto;
 }
 
-main article{
+.conteudo article{
     background-color: white;
     padding: 10px;
     margin: 20px auto;
 }
 
-main article h3{
+.conteudo article h3{
     background-color: #c0c0c0;
     margin: 0;
     padding: 5px;
     border-bottom: #8d8d8d solid 1px;
     font-size: 24px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-main article p{
+.conteudo article p{
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-main article ul{
+.conteudo article ul{
     display: inline-block;
     width: 100%;    
     margin: 0;
     padding: 0;
 }
 
-main article ul li{
+.conteudo article li{
     display: inline-block;
 }
 
-main article ul li a{
+.conteudo article a{
     padding: 10px;
     display: inline-block;
     background-color: #929292;
 }
 
-footer{
+.rodape{
     background-color: #4d4d4d;
     margin-bottom: 0;
     border: solid 1px #4d4d4d;
