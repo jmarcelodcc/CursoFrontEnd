@@ -16,7 +16,6 @@
     padding: 2px;
     height: 300px;
     width: 200px;
-    z-index: 2;
 }
 
 .containerposition{
@@ -35,7 +34,6 @@
     background-color: antiquewhite;
     margin: 20px auto;
     position: relative;
-    z-index: 1;
     left: 70px;
     top: 10px;
 }
