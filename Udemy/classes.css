@@ -10,7 +10,24 @@
     text-decoration: none;
 }
 
+.flexbox{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border:solid 2px #280b4f;
+    margin: auto;
+    overflow: scroll;
+}
+
+.div{
+    height: 250px;
+    width: 150px;
+    border: solid 2px black;
+    margin: 10px;
+}
+
 .container2{
+    background-color: aliceblue;
     margin: auto;
     border: solid 2px #280b4f ;
     padding: 2px;
@@ -66,23 +83,6 @@
 
 .scroll{
     overflow: scroll;
-}
-
-.botaocenter{
-    margin: 0 auto 2px;
-    width: 100%;
-    padding: 0;
-    display: inline-block;
-}
-
-.botaocenter li{
-    display: inline-block;
-}
-
-.botaocenter a{
-    display: inline-block;
-    padding: 10px;
-    border: #280b4f solid 1px;
 }
 
 .estilo{

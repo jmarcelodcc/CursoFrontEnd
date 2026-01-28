@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="classes.css">
+
+    <style>
+        .wrap{
+            flex-wrap:wrap;
+        }
+        .direction{
+            flex-direction: column;
+        }
+        .justifystart{
+            justify-content: start;
+        }
+        .justifyend{
+            justify-content: end;
+        }
+        .justifycenter{
+            justify-content: center;
+        }
+        .justifyspacearound{
+            justify-content: space-around;
+        }
+        .justifyspacebetween{
+            justify-content: space-between;
+        }
+        .justifyspaceevenly{
+            justify-content: space-evenly;
+        }
+        .alingcenter{
+            align-content: center;
+        }
+        .minicontainer{
+            width: 30px;
+        }
+    </style>
+
+    <title>Flexbox</title>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <ul class="botaocenter ladoesquerdo">
+        <li><a href="semantica.html">Voltar</a></li>
+        <li><a href="#">Próximo</a></li>
+    </ul>
+    <hr>
+    <h2>Flex</h2>
+    <h3>Nowrap - Row</h3>
+    <div class="flexbox">
+        <div class="div">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+    </div>
+    <h3>Wrap - Row</h3>
+    <div class="flexbox wrap">
+        <div class="div">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+    </div>
+    <h3>Nowrap - Column</h3>
+    <div class="flexbox direction">
+        <div class="div">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+    </div>
+    <h3>Wrap - Column</h3>
+    <div class="flexbox wrap direction">
+        <div class="div">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+    </div>
+    <hr>
+    <h2>Justify</h2>
+    <h3>Content-Start</h3>
+    <div class="flexbox justifystart">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Content-End</h3>
+    <div class="flexbox justifyend">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Content-Center</h3>
+    <div class="flexbox justifycenter">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Content-SpaceAround</h3>
+    <div class="flexbox justifyspacearound">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Content-SpaceBetween</h3>
+    <div class="flexbox justifyspacebetween">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Content-SpaceEvenly</h3>
+    <div class="flexbox justifyspaceevenly">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h2>Aling</h2>
+    <h3>Aling-Center</h3>
+    <div class="flexbox alingcenter justifyspacearound">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+        

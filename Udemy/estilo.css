@@ -4,6 +4,23 @@ body{
     margin: 10px auto;
 }
 
+.botaocenter{
+    margin: 0 auto 2px;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+}
+
+.botaocenter li{
+    display: inline-block;
+}
+
+.botaocenter a{
+    display: inline-block;
+    padding: 10px;
+    border: #280b4f solid 1px;
+}
+
 h1{
     color: #020023;
     background-color: #cba7fa;
