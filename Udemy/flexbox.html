@@ -33,9 +33,22 @@
             justify-content: space-evenly;
         }
         .alingcenter{
-            align-content: center;
+            align-items:center ;
+        }
+        .alingend{
+            align-items:flex-end ;
+        }
+        .alingstart{
+            align-items:flex-start ;
+        }
+        .alingstretch{
+            align-items:stretch ;
+        }
+        .alingbaseline{
+            align-items:baseline ;
         }
         .minicontainer{
+            height: 70px;
             width: 30px;
         }
     </style>
@@ -112,11 +125,40 @@
         <div class="div minicontainer">2</div>
         <div class="div minicontainer">3</div>
     </div>
-    <h2>Aling</h2>
+    <h2>Aling Items</h2>
     <h3>Aling-Center</h3>
-    <div class="flexbox justifyspacearound">
+    <div class="flexbox alingcenter">
         <div class="div minicontainer">1</div>
-        <div class="div minicontainer">2</div>
+        <div class="div minicontainer" style="font-size: 42px;">2</div>
         <div class="div minicontainer">3</div>
     </div>
-        
+    <h3>Aling-FlexStart</h3>
+    <div class="flexbox alingstart">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer" style="font-size: 42px;">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Aling-FlexEnd</h3>
+    <div class="flexbox alingend">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer" style="font-size: 42px;">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Aling-Stretch</h3>
+    <div class="flexbox alingstretch">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer" style="font-size: 42px;">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Aling-Baseline</h3>
+    <div class="flexbox alingbaseline">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer" style="font-size: 42px;">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <hr>
+    <h2>Aling-Items X Aling-Content</h2>
+    <p>Aling-Items - Apenas para uma única linha</p>        
+    <p>Aling-Content - Quando tiver quebra de linha</p>        
+    <hr>
+    <h2></h2>
