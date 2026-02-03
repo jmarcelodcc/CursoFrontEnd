@@ -47,6 +47,15 @@
         .alingbaseline{
             align-items:baseline ;
         }
+        .flexbasis{
+            flex-basis: 400px;
+        }
+        .flexgrow{
+            flex-grow: 1;
+        }
+        .flexshrink{
+            flex-shrink: 1;
+        }
         .minicontainer{
             height: 70px;
             width: 30px;
@@ -161,4 +170,30 @@
     <p>Aling-Items - Apenas para uma única linha</p>        
     <p>Aling-Content - Quando tiver quebra de linha</p>        
     <hr>
-    <h2></h2>
+    <h2>Flex-Basis</h2>
+    <h3>Largura para direction row</h3>
+    <div class="flexbox justifycenter alingcenter">
+        <div class="div minicontainer flexbasis">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h3>Altura para direction column</h3>
+    <div class="flexbox justifycenter alingcenter direction">
+        <div class="div minicontainer flexbasis">1</div>
+        <div class="div minicontainer">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h2>Flex-Grow</h2>
+    <h3>Preencher o espaço faltando</h3>
+    <div class="flexbox justifycenter alingcenter">
+        <div class="div minicontainer">1</div>
+        <div class="div minicontainer flexgrow">2</div>
+        <div class="div minicontainer">3</div>
+    </div>
+    <h2>Flex-Shrink</h2>
+    <h3>Se adpta ao tamanho</h3>
+    <div class="flexbox justifycenter alingcenter">
+        <div class="div minicontainer flexbasis">1</div>
+        <div class="div minicontainer flexshrink">2</div>
+        <div class="div minicontainer flexbasis">3</div>
+    </div>
