@@ -35,6 +35,7 @@ article{
     overflow: hidden;
     margin: 5px auto;
 
+    border: 2px solid;
     height: 100px;
     width: 450px;
     
@@ -54,13 +55,11 @@ article :hover{
 }
 
 .conteudo{
-    background-color: blue;
     margin: 0 10px;
     flex-grow: 1;
 }
 
 .conteudo h2{
-    background-color: yellow;
     color: rgb(53, 53, 53);
     margin: 10px 0 0;
     font-size: 24px;
@@ -68,12 +67,13 @@ article :hover{
 }
 
 .link{
-    background-color: pink;
     display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
 }
 
 .link a{
-    background-color: green;
     text-decoration: none;
     color: rgba(53, 53, 53, 0.747);
     font-size: 16px;
@@ -81,12 +81,7 @@ article :hover{
     margin-top: 230px;
 }
 .link img{
-    position:static;
-    background-color: red;
-    height: 15px;
-    width: 15px;
-}
-
-.end{
-    justify-content: end;
+    
+    height: 18px;
+    width: 18px;
 }
