@@ -1,0 +1,64 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    background-image:url(imagens/bg-2.jpg);
+    background-size:cover;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin: 42px 0 0;
+    font-weight: bold;
+    font-size: 52px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+
+    background-color: rgb(59, 59, 59);
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: 15px 0 30px;
+}
+
+main{
+    height: 350px;
+    width: 750px;
+
+    background-color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around ;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+
+    width: 240px;
+}
+
+.imagem img{
+    display: block;
+    width: 100%
+}
+
+.text p{
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    padding: 5px;
+}
