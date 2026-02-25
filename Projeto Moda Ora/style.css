@@ -69,6 +69,7 @@ body{
 
 .main__img-title{
     width: 100%;
+    height: 20vh;
     background-color: #1f1f1faf;
     color: white;
     font-size: 7em;
@@ -79,17 +80,24 @@ body{
 
     transition-duration: .7s;
     transition-property: all;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main:hover .main__img-title{
+.main__img:hover .main__img-title{
     font-size: 8em;
     background-color: #1f1f1f;    
+    height: 22vh;
 }
 
 .content{
-    margin: 80px 0;
+    padding: 1% 0;
+    margin: 5% 0;
     padding-top: 1%;
     border: 1px solid #1f1f1f00;
+    border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);
     width: 75%;
     height: 80vh;
@@ -97,7 +105,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .content__title{
@@ -107,7 +115,6 @@ body{
 }
 
 .content__text{
-    margin: 0 0 30px;
     width: 80%;
     color: #363636;
     text-align: center;
@@ -115,9 +122,11 @@ body{
 }
 
 .content__img{
+    width: 100%;
     display: flex;
-    gap:35px;
-
+    gap: 5%;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -156,26 +165,26 @@ body{
 
 .end{
     background-color: #1f1f1f;
-
     width: 100%;
     height: 85vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .end__title{
     font-family: "Italiana", sans-serif;    
     font-size: 3em;
-    margin: 20px 0 0;
+    margin: 0;
     color: white;
 }
 
 .end__content{
     height: 65vh;
     width: 70%;
-    margin: 20px 0 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
