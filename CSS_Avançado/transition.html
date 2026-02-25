@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        div{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+
+            border-radius: 100%;
+
+            transition-property: width, height;
+            transition-duration: 1s,1.5s;
+            transition-timing-function: cubic-bezier(.74,-0.83,.52,1.95);
+
+        }
+
+        div:hover{
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+
+    <title>Transition</title>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
