@@ -1,0 +1,17 @@
+html{
+    font-size: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(46, 46, 46);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
